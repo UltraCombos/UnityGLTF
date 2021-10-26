@@ -21,7 +21,7 @@ The library will be modularized such that it can be extended to support addition
 You can install this right from git as Unity Package, compatible with UPM (Unity Package Manager).
 1. Open `Window > Package Manager`
 2. In Package Manager, click <kbd>+</kbd> and select <kbd>Add Package from git URL</kbd>
-3. Paste ```https://github.com/prefrontalcortex/UnityGLTF.git?path=/UnityGLTF/Assets/UnityGLTF#dev```
+3. Paste ```https://github.com/UltraCombos/UnityGLTF.git?path=/UnityGLTF/Assets/UnityGLTF#master```
 4. Click <kbd>Add</kbd>.  
    
 Done!  
