@@ -1963,10 +1963,12 @@ namespace UnityGLTF
 			if (unityMeshData.Normals == null && unityMeshData.Topology[0] == MeshTopology.Triangles)
 			{
 				mesh.RecalculateNormals();
+				Debug.LogWarning("Normal doesn't exist, so calculating it automatically.");
 			}
 			if (unityMeshData.Tangents == null && unityMeshData.Topology[0] == MeshTopology.Triangles)
 			{
 				mesh.RecalculateTangents();
+				Debug.LogWarning("Tangent doesn't exist, so calculating it automatically.");
 			}
 
 			if (!KeepCPUCopyOfMesh)
