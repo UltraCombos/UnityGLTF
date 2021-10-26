@@ -1964,6 +1964,10 @@ namespace UnityGLTF
 			{
 				mesh.RecalculateNormals();
 			}
+			if (unityMeshData.Tangents == null && unityMeshData.Topology[0] == MeshTopology.Triangles)
+			{
+				mesh.RecalculateTangents();
+			}
 
 			if (!KeepCPUCopyOfMesh)
 			{
